@@ -151,15 +151,6 @@ UPDATE users SET role = 'ADMIN' WHERE email = 'your_registered_email@example.com
 
 ---
 
-## Known Limitations
-
-- Single-restaurant setup (`restaurant_id` hardcoded to `1`)
-- No real payment gateway integration (payment method is recorded, not processed)
-- Passwords hashed with SHA-256 (not salted) — fine for a college/demo project, not production-grade
-- Session-based cart is lost on logout/session expiry (not persisted to DB)
-
----
-
 ## Author
 --> Arfathulla
 
